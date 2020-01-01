@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.idh.songk.danang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+
+
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_luncher_3"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ic_luncher_3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity android:name=".playnight_novotel"></activity>
+        <activity android:name=".playnight_club" />
+        <activity android:name=".playnight_golenpine" />
+        <activity android:name=".playnight_oqupub" />
+        <activity android:name=".playnight_hairclub" />
+        <activity android:name=".playnight_menu" />
+        <activity android:name=".playnight_karaoke" />
+        <activity android:name=".playnight_apobeachclub" />
+
+        <activity android:name=".resort_menu" />
+        <activity android:name=".resort_binpull" />
+        <activity android:name=".resort_grand" />
+        <activity android:name=".resort_melia" />
+        <activity android:name=".resort_pullman" />
+        <activity android:name=".resort_purama" />
+        <activity android:name=".resort_goldenbay" />
+        <activity android:name=".resort_hoianpesta" />
+        <activity android:name=".resort_fusion" />
+
+
+        <activity android:name=".food_vetnam_menu" />
+        <activity android:name=".food_hoian_menu" />
+        <activity android:name=".food_danang_menu" />
+        <activity android:name=".food_danang_menu_bonpas" />
+        <activity android:name=".food_danang_menu_ricenoddle" />
+        <activity android:name=".food_danang_menu_coconut" />
+        <activity android:name=".food_danang_menu_banceo" />
+        <activity android:name=".food_danang_menu_buncha" />
+        <activity android:name=".food_danang_menu_mrbanmi" />
+        <!--<activity android:name=".food_danang_menu_buncha" />-->
+        <!--<activity android:name=".food_danang_menu_buncha" />-->
+        <!--<activity android:name=".food_danang_menu_buncha" />-->
+
+
+
+
+        <activity android:name=".food_hoian_menu_garden" />
+        <activity android:name=".food_hoian_menu_nihan" />
+        <activity android:name=".food_hoian_menu_tuan" />
+        <activity android:name=".food_hoian_menu_woodfire" />
+
+
+
+
+
+
+        <activity android:name=".food_vetnam_menu_ricenoddle" />
+        <activity android:name=".food_vetnam_menu_banmi" />
+        <activity android:name=".food_vetnam_menu_bucha" />
+        <activity android:name=".food_vetnam_menu_coffee" />
+        <activity android:name=".food_vetnam_menu_jajo" />
+        <activity android:name=".food_vetnam_menu_comga" />
+        <activity android:name=".food_vetnam_menu_walnam" />
+        <activity android:name=".food_vetnam_menu_banxeo" />
+
+
+        <activity android:name=".food_vetnam_koreafood_menu" />
+        <activity android:name=".food_vetnam_koreafood_menu_kogurea" />
+        <activity android:name=".food_vetnam_koreafood_menu_hoho" />
+        <activity android:name=".food_vetnam_koreafood_menu_muksam" />
+        <activity android:name=".food_vetnam_koreafood_menu_oppa" />
+        <activity android:name=".food_vetnam_koreafood_menu_bebe" />
+
+
+
+        <activity android:name=".hair_menu_danang" />
+        <activity android:name=".hair_menu_danang_danangjeil" />
+        <activity android:name=".hair_menu_danang_gangnam" />
+        <activity android:name=".hair_menu_danang_gohang" />
+        <activity android:name=".hair_menu_danang_king" />
+        <activity android:name=".hair_menu_danang_seoul" />
+
+
+
+
+
+
+
+        <activity android:name=".tatoo_menu_danang" />
+        <activity android:name=".tatoo_menu_danang_tuantatoo" />
+        <activity android:name=".tatoo_menu_danang_liketatoo" />
+        <activity android:name=".tatoo_menu_danang_lament" />
+        <activity android:name=".tatoo_menu_danang_monkeytatoo" />
+        <activity android:name=".tatoo_menu_danang_bomtatoo" />
+
+
+
+
+
+        <activity android:name=".sctoor_menu_danang" />
+
+
+        <activity android:name=".massage_menu_danang" />
+        <activity android:name=".massage_menu_danang_pink" />
+        <activity android:name=".massage_menu_danang_bilad" />
+        <activity android:name=".massage_menu_danang_lotus" />
+        <activity android:name=".massage_menu_danang_papaya" />
+        <activity android:name=".massage_menu_danang_saigon" />
+        <activity android:name=".massage_menu_danang_vie" />
+        <activity android:name=".massage_menu_danang_flower" />
+
+
+
+
+
+
+
+
+
+        <activity android:name=".tour_dongding_museum" />
+        <activity android:name=".tour_gold" />
+        <activity android:name=".tour_lotte_mart" />
+        <activity android:name=".tour_han_market" />
+        <activity android:name=".tour_hoian_dojagi" />
+        <activity android:name=".tour_danang_museum" />
+        <activity android:name=".tour_trick_art" />
+        <activity android:name=".tour_thank" />
+        <activity android:name=".tour_helio" />
+        <activity android:name=".tour_cao" />
+        <activity android:name=".tour_mat" />
+        <activity android:name=".air_plug" />
+        <activity android:name=".tour_hoian" />
+        <activity android:name=".tour_loveb" />
+        <activity android:name=".tour_asia" />
+        <activity android:name=".tour_Cathedral" />
+        <activity android:name=".tour_museum" />
+        <activity android:name=".tour_sa" />
+        <activity android:name=".tour_banahil" />
+        <activity android:name=".tour_dragon" />
+        <activity android:name=".tour_beach" />
+        <activity android:name=".tour_menu" />
+        <activity android:name=".hoianfood" />
+        <activity android:name=".foodeat" />
+        <activity android:name=".foodgoogle" />
+        <activity android:name=".tour_hue" />
+        <activity android:name=".tour_misun" />
+        <activity android:name=".playnight_pockball" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2821664824480291~7504679339" />
+
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".usimtext" />
+        <activity android:name=".nightair" />
+        <activity android:name=".money" />
+        <activity android:name=".air_hotel_3" />
+        <activity android:name=".hotel_air_4" />
+
+
+
+        <service
+            android:name=".FirebaseInstanceIDService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+</manifest>

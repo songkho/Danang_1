@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".playnight_golenpine">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="90dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="85dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@drawable/koreafood_menu" />
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="고구려 (한식 고기구이 레스토랑)"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="다낭 본점 케이마트에서 도보 7분 거리에 위치한 고구려 식당은 한식 요리 및 고기를 요리해서 먹을 수 있는 한인식당이에요. 이곳도 사장님이 한국 분이 시기 때문에 필요한 사항이나 궁금한 점은 언제든지 불편함 없이 소통할 수 있답니다. \n영업시간은 월요일~일요일 오전 10시부터 오후 10시까지 운영되며, 식당 입구에 들어서자마자 한국 고깃집 내부의 익숙한 모습을 보실 수 있을 거예요. 그만큼 한국의 인테리어와 음식을 고스란히 살려 관광객들에게 제공하고 있었어요. \n특히 고기의 경우 직원분들이 외부에서 구워 오시기 때문에 고기 냄새 걱정 없이 드실 수 있다는 게 가장 큰 장점이랍니다. 이외에도 된장찌개 등의 한식을 드실 수 있으며 특히 밑반찬이 정말 맛있게 때문에 두 번, 세 번 더 받아서 드실 거라 생각되네요. 그만큼 전체적으로 음식이 맛있고 깔끔하기 때문에 얼큰한 음식을 드시고 싶으신 분들은 이곳을 꼭 방문해주세요!"
+                        app:lineHeight="30dp" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="영업시간 "
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="월요일~일요일 오전 10:00 ~ 오후 10:00"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="연락처"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="+84 93 442 15 29"
+                        app:lineHeight="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/koreafood_menu"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name"
+                        android:layout_alignLeft="@+id/name"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="구글 지도로 위치를 알아보자 !"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:id="@+id/googlefood"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/food"
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="맛집"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:text="고구려"
+                            android:textColor="@android:color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="구글\n링크!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn6"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="300dp"
+                    android:layout_marginTop="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/koreafood_menu"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name"
+                        android:layout_alignLeft="@+id/name"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="다른 사람들은 이 장소를 어떻게 즐기고 있을까 ? \n인스타 태그로 살펴보자 !"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="## 고구려 ! \nInstagram go! go!"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

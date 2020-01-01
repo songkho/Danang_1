@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <!--android:background="@drawable/back"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="합당한 금액으로 택시타기\n(공항 → 호텔)"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="95dp"
+            android:layout_weight="0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/airtaxiphoto" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="다낭공항 도착"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:shadowColor="#000000"
+                        android:text="필자는 새벽 1:30에 다낭공항에 도착하는 비행기 였습니다. 베트남돈이 없는 상태였으며 달러를 준비한 상태 였습니다.\n\n공항에서 호텔로 갈 시 베트남돈으로 결제하여 숙소까지 안전하게 가는것이 필요하게 됩니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n그랩사기 주의"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:shadowColor="#000000"
+                        android:text="공항을 나가시게 되면 갑자기 베트남인이 그랩? 이라고 여행객들에게 다짜고짜 들이대는 사람들이 있습니다.
+                \n필자의 경우는 공항에서 호텔까지 구글 경로를 찍으면 약 5천원 나올 거리를 이 베트남인들은 2만원에 가격을 불러 여행객을 노린 사기꾼으로 보였습니다. 당황 하지 않고 그런 분들은 무시하시고 우선 환전부터 먼저 하시길 바랍니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n공항에서 택시비 환전"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:shadowColor="#000000"
+                        android:text="우선 공항환전소는 새벽 2시까지 운영하기에 늦지 않게 환전소에 가셔서 환전을 꼭 하셔야 택시를 이용 하실 수 있습니다.필자는 공항 밖에 있는 환전소를 이용 하였습니다.
+                \n공항 밖에는 두종류의 환전소가 있습니다. 가격은 필자가 여행시 두군데 모두 환전율이 동일 하였기에 동일할 경우 아무곳에나 하셔도 무난하실 것 같습니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n브랜드 택시 타기"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:shadowColor="#000000"
+                        android:text="필자는 환전 후 사기 그랩을 피해 초록색 택시의 마일린(MAILINH)택시를 타게 되었습니다. 이사람들도 미터기 없이 약 1만원에 해당하는 가격을 불렀으나(일반적으로 미터기금액으로 가격계산) 다른종류의 운송수단은 보이지 않아 마일린(MAILINH) 택시를 타고 호텔로 가게 되었습니다.
+                \n사기 그랩만 안타셔도 초보 여행자 분들은 소중한 여행비를 절약하실 수 있지 않을가 생각이 듭니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n그랩 타기전 체크!"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:shadowColor="#000000"
+                        android:text="무조건 그랩을 타시지 마시고 구글로 출발지와 도착지 경로 검색을 하시면 그랩 예상 가격이 나오게 됩니다.(택시는 grab가격의 1.5배 정도)을 생각하시고 운송수단을 타시면 비용을 효율적으로 계산 하시게 될것입니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

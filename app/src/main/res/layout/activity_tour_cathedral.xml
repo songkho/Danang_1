@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tour_Cathedral">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="다낭 대성당\nGiáo xứ Chính tòa Đà Nẵng"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:paddingBottom="95dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/tour_catle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="다낭 대성당?"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="다낭 대성당은 1923년 프랑스 식민지 시대 당시 다낭에 지어진 유일한 가톨릭 성당 입니다. 1923년 2월 현재의 쩐푸 거리의 빈 땅에서 사제 발레(Vallet)가 설계하고 건축했습니다. 다낭 대성당은 1924년 3월 10일까지 아주 짧은 기간에 지어져 봉헌과 취임식까지 진행한 건물 중 하나입니다, 교회의 지붕에는 바람의 방향을 결정하는 데 사용되는 합금으로 만든 회색 닭 조각상이 있습니다. 그래서 이 성당을 치킨 교회라 부르기도 합니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="550dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/tour_catle3" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n특징"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="핑크 빛으로 이루어져 핑크성당이라고도 불리는 곳 입니다. 실제 종교 활동을 하는 곳 이기 때문에 미사 시간이 있습니다.  "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n관광포인트"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/tour_catle2" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="성당 뜰에 있는 성모마리아상이 유명하며 핑크빛으로 지어진 성당으로 인해 많은 관광객들의 사진 촬영 명소로도 이용되고 있습니다.  "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n관광비용"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="입장료 : 무료"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n전체총평"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="다낭성당 관광은 사진만 찍고오게 되면 생각 보다 짧게 다녀올 수도 있는 관광지 입니다. 그렇기에 주변에 한강, 한시장, 콩카페 등 같이 즐겨볼거리를 함께 구성하여 다녀오면 더욱 좋을것 같습니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/imageView6"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="-250dp"-->
+                    <!--android:layout_weight="0"-->
+                    <!--app:srcCompat="@drawable/view" />-->
+
+                    <LinearLayout
+                        android:id="@+id/libtn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:autoLink="web|email|phone"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/googlefood"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#3F51B5"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/icon"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="30dp"
+                                    android:layout_weight="1"
+
+                                    android:src="@drawable/food"
+                                    android:textSize="0sp" />
+
+                                <TextView
+                                    android:id="@+id/name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@+id/icon"
+                                    android:layout_weight="1"
+                                    android:text="관광"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:text="다낭 대성당 위치 보기 !"
+                                android:textColor="@android:color/white"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/name"
+                                android:layout_alignParentRight="true"
+                                android:layout_weight="1"
+                                android:text="구글\n링크!"
+                                android:textColor="@android:color/white" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

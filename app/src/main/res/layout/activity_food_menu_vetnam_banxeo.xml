@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tour_cao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingBottom="95dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/food_banceo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+                        android:text="반쎄오 (Ban Xeo)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="반쎄오는 이름의 유래부터가 재미있는 음식인데요. 반쎄오의 반(Bánh)은 쌀이나 밀가루 같은 것으로 만들어진 음식을 일 컫는 것이며, 쎄오(xèo)는 프라이팬에 굽는 지글지글 소리라는 의미로 쌀 반죽이 뜨거운 프라이팬에 부어 구워질 때 나는 소리가 지글지글 하여 ‘지글지글 팬케이크’라는 의미로 불립니다. 쌀 반죽 내부에는 새우, 돼지고기, 양파, 숙주 같은 것을 넣어 싸먹는 음식입니다. 쌀 반죽이 노란 이유는 강황을 넣었기 때문이라고 합니다.  "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        app:lineHeight="25dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="4dp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="500dp"
+                            android:layout_weight="0"
+                            android:background="@drawable/food_banceo4" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+                        android:text="특징"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="반쎄오는 느억맘 소스(생선액젓 소스)를 같이 곁들여 먹기도 합니다. 주문하게 되면 잎 채소를 제공해주는데요. 상추잎과 함께 베트남 깻잎을 제공해 줍니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        app:lineHeight="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView106"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+                        android:text="종류"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView107"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="베트남 중부 스타일 반쎄오\n베트남 남부 스타일 반쎄오"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        app:lineHeight="25dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView97"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/food_banceo2" />
+
+                            <TextView
+                                android:id="@+id/textView98"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="얇은 구운 쌀 반죽에 숙주나물 새우등 여러야채가 있다."
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView97"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/food_banceo5" />
+
+                            <TextView
+                                android:id="@+id/textView98"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="느억맘 소스와 같이 나온 반쌔오"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView97"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/food_banceo6" />
+
+                            <TextView
+                                android:id="@+id/textView98"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="얇게 바삭하게 구울 수록 맛있다고 합니다."
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView100"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/food_banceo7" />
+
+                            <TextView
+                                android:id="@+id/textView101"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="고기가 들어간 반쎄오"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView102"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/food_banceo8" />
+
+                            <TextView
+                                android:id="@+id/textView103"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="얇게 만든 반쎄오 상차림 모습"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView104"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/food_banceo9" />
+
+                            <TextView
+                                android:id="@+id/textView105"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="기본 반쎄오 구성"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/imageView6"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="-250dp"-->
+                    <!--android:layout_weight="0"-->
+                    <!--app:srcCompat="@drawable/view" />-->
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

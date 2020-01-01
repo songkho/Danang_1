@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodeat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="95dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/libtn1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/food_menu_danang"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="베트남 먹거리 라고 하면 가장먼저 ? 쌀국수!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="베트남 쌀국수"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/food_banmi"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="커다란 바게트에 속이 꽉찬 베트남 만의 샌드위치 반미!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="반미"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_food_buncha_3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="오바마 대통령도 먹어본 구운 돼지고기 요리 분짜 !"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="분짜"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/food_latte"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="연유 커피의 원조! 베트남의 달달한 연유가 들어간 커피"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="연유 커피"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/food_banceo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="쌀가루 반죽에 채소와 해산을 넣어 얇게 부친 베트남 전통 음식"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="반쎄오\nBan Xeo"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/food_spring_rolls"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="새우 돼지고기 야채 등 라이스페이퍼에 싸 대표적인 베트남 음식!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="월남쌈\nGoi Cuon"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/food_friedspringrolls"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="월남쌈을 바삭하게 튀겨낸 스프링 롤."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="짜조\nCha Gio"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/food_chiken_rice"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="저렴하게 즐길 수 있는 베트남식 닭고기 덮밥!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="껌가\nCom Ga"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

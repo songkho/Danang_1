@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".playnight_golenpine">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="90dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="85dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@drawable/spa_flower" />
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Flower Spa- DANANG"
+                        android:textStyle="bold" />
+ㅇ
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text=" 플라워 스파는 다낭 시내 중앙 부근에 위치해 있어요. 플라워 스파가 있는 곳은 다낭 시내에서는 다낭의 부촌이며, 마사지샵이 밀집된 지역이라고 합니다. 매장 분위기는 깔끔한 편이며, 사장님과 사모님이 한국말을 하셔서 의사소통에도 어렵지 않은 곳입니다. 플라워 스파에 가시면 시원한 웰컴티를 준비해 주셔요. \n\n즐길 수 있는 코스는 플라워스파 핫스톤 마사지 60분,90분,120분 시간을 선택 하실 수 있답니다. 시간은 오전 9시부터 밤 11시까지 방문이 가능하시며, 다른 업체에 비해 가격이 저렴한 것이 특징이어요. 현재 오후 1시부터 5시까지 1+1 프로모션을 진행 하고 있기에 동일코스를 동반 방문하여 서비스를 받으시면 더 좋으실 것 같아요! 프로모션을 받기 위해선 오후 5시 이전에 방문으로 카카오 아이디 flowerspa92로 예약을 하셔서 방문하시면 좋으실 것 같아요."
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="영업시간 "
+                        android:textStyle="bold"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="월요일 ~ 일요일 오전 09:00~오후 11:00"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="연락처"
+                        android:textStyle="bold"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="+84 93 604 96 55"
+                        app:lineHeight="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/spa_flower"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name"
+                        android:layout_alignLeft="@+id/name"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="구글 지도로 위치를 알아보자 !"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:id="@+id/googlefood"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/hairsotre"
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="마사지"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:text="플라워 스파"
+                            android:textColor="@android:color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="구글\n링크!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn6"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="300dp"
+                    android:layout_marginTop="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/spa_flower"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name"
+                        android:layout_alignLeft="@+id/name"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="다른 사람들은 이 장소를 어떻게 즐기고 있을까 ? \n인스타 태그로 살펴보자 !"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="## 플라워 스파 ! ! \nInstagram go! go!"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

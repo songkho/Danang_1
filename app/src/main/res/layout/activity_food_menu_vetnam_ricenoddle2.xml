@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tour_cao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingBottom="95dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/food_menu_danang" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+                        android:text="베트남 쌀국수(퍼 Phở)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="쌀국수는 이제 한국에도 많이 알려져 있습니다. 다양한 베트남식 음식 체인점으로 인해 많이 알려지게 되었습니다. \n그러나 한국에서 먹는 베트남 음식은 한국인 입맛에 맞추어 만들기 때문에 국물의 맛과 면의 식감 또한 다르기에 현지에서도 맛있는 지점을 찾아 드셔 보시길 권장드리는 음식이기도 합니다. \n베트남 쌀국수는 현지에서 매우 저렴하게 먹을 수 있는 음식 중 하나이며, 현지인들도 익숙하게 즐겨 먹는 음식입니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        app:lineHeight="25dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="4dp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0"
+                            android:background="@drawable/food_noddle_2" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+                        android:text="특징"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="쌀국수는 일반적으로 쇠고기나 닭고기를 우려낸 육수를 사용하는 것으로 알려져 있으며, 그 종류도 다양하게 있습니다. 만약 고수 특유의 향을 싫어하시는 분이 있으시다면, 꼭 고수를 빼달라고 말씀을 드리고 식사를 하시길 권해 드립니다.
+"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        app:lineHeight="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView106"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+                        android:text="종류"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView107"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="퍼 가(phở gà): 닭고기 육수 퍼
+\n퍼 똠(phở tôm): 새우 육수 퍼
+\n퍼 보(phở bò): 쇠고기 육수 퍼
+\n퍼 엑(phở ếch): 개구리 육수 퍼
+\n퍼 해오(phở heo): 돼지고기 육수 퍼"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        app:lineHeight="25dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView97"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/vetnam_food_noddlechiken" />
+
+                            <TextView
+                                android:id="@+id/textView98"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="퍼 가(phở gà): 닭고기 육수 퍼"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView100"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/vetnam_food_noddle_hanoi_cow" />
+
+                            <TextView
+                                android:id="@+id/textView101"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="파를 올린 하노이식 쇠고기 퍼"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView102"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/vetnam_food_noddle_hochimin_cow" />
+
+                            <TextView
+                                android:id="@+id/textView103"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="허브와 숙주나물을 올린 호찌민식 쇠고기 퍼"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView104"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/vetnam_food_noddle_hanoi_ya" />
+
+                            <TextView
+                                android:id="@+id/textView105"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:lineSpacingMultiplier="1.2"
+                                android:shadowDx="5.0"
+                                android:shadowDy="5.0"
+                                android:shadowRadius="5.0"
+                                android:text="호찌민식 퍼에 곁들이는 채소와 허브"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:lineHeight="25dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/imageView6"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="-250dp"-->
+                    <!--android:layout_weight="0"-->
+                    <!--app:srcCompat="@drawable/view" />-->
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

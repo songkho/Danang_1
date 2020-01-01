@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="-5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/shareb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sharelay"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sharetv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/button2"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_alignEnd="@+id/linearLayout"
+                android:layout_alignRight="@+id/linearLayout"
+                android:layout_alignBottom="@+id/button2"
+                android:layout_gravity="center_vertical"
+                android:text="공유"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="21.5dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sharelay"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sharetv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/button2"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_alignEnd="@+id/linearLayout"
+                android:layout_alignRight="@+id/linearLayout"
+                android:layout_alignBottom="@+id/button2"
+                android:layout_gravity="center_vertical"
+                android:text="의견\n제안"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="다낭여행"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="행복한 여행이 될거에요 :)"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="95dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="2dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:id="@+id/libtn_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="@drawable/tour3"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:background="@color/common_google_signin_btn_text_light_default"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/libtn5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="80dp"
+
+                                android:layout_weight="1"
+                                android:autoLink="web|email|phone"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/icon6"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+
+                                            android:src="@drawable/local1"
+
+                                            android:textSize="0sp" />
+
+                                        <TextView
+                                            android:id="@+id/name6"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_toRightOf="@+id/icon"
+                                            android:layout_weight="1"
+                                            android:paddingTop="5dp"
+
+
+                                            android:text="길찾기"
+                                            android:textColor="@android:color/white" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/libtn3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="80dp"
+
+                                android:layout_weight="1"
+                                android:autoLink="web|email|phone"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/icon4"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+
+                                            android:src="@drawable/food"
+
+                                            android:textSize="0sp" />
+
+                                        <TextView
+                                            android:id="@+id/name4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_toRightOf="@+id/icon"
+                                            android:layout_weight="1"
+                                            android:paddingTop="5dp"
+
+
+                                            android:text="맛집"
+                                            android:textColor="@android:color/white" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/libtn1"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:autoLink="web|phone|email"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/icon1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+
+                                            android:src="@drawable/lang"
+
+                                            android:textSize="0sp" />
+
+                                        <TextView
+                                            android:id="@+id/name1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_toRightOf="@+id/icon"
+                                            android:layout_weight="1"
+                                            android:paddingTop="5dp"
+
+
+                                            android:text="번역"
+                                            android:textColor="@android:color/white" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/libtn4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="80dp"
+
+                                android:layout_weight="1"
+                                android:autoLink="web|email|phone"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/icon3"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+
+                                            android:src="@drawable/hotel"
+
+                                            android:textSize="0sp" />
+
+                                        <TextView
+                                            android:id="@+id/name3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_toRightOf="@+id/icon"
+                                            android:layout_weight="1"
+                                            android:paddingTop="5dp"
+
+
+                                            android:text="호텔"
+                                            android:textColor="@android:color/white" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="2dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:id="@+id/libtn_weather"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/tour3"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:background="@color/common_google_signin_btn_text_light_default"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/weatherbtn1"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:autoLink="web|email|phone"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/icon6"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:src="@drawable/weather"
+                                            android:textSize="0sp" />
+
+                                        <TextView
+                                            android:id="@+id/name6"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_toRightOf="@+id/icon"
+                                            android:layout_weight="1"
+                                            android:paddingTop="5dp"
+                                            android:text="바나힐 날씨"
+                                            android:textColor="@android:color/white" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/weatherbtn2"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:autoLink="web|email|phone"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/icon4"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+
+                                            android:src="@drawable/weather"
+
+                                            android:textSize="0sp" />
+
+                                        <TextView
+                                            android:id="@+id/name4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_toRightOf="@+id/icon"
+                                            android:layout_weight="1"
+                                            android:paddingTop="5dp"
+
+
+                                            android:text="호이안 날씨"
+                                            android:textColor="@android:color/white" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/weatherbtn3"
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:autoLink="web|phone|email"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/icon1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="33dp"
+                                            android:layout_weight="1"
+                                            android:src="@drawable/weather"
+                                            android:textSize="0sp" />
+
+                                        <TextView
+                                            android:id="@+id/name1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_toRightOf="@+id/icon"
+                                            android:layout_weight="1"
+                                            android:paddingTop="5dp"
+                                            android:text="다낭 날씨"
+                                            android:textColor="@android:color/white" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/weatherbtn4"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:autoLink="web|email|phone"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/icon3"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+
+                                            android:src="@drawable/weather"
+
+                                            android:textSize="0sp"
+                                            app:srcCompat="@drawable/weather" />
+
+                                        <TextView
+                                            android:id="@+id/name3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_toRightOf="@+id/icon"
+                                            android:layout_weight="1"
+                                            android:paddingTop="5dp"
+
+
+                                            android:text="서울 날씨"
+                                            android:textColor="@android:color/white" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="2dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/vetnammoneytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:cursorVisible="false"
+                                android:ems="10"
+                                android:gravity="center"
+                                android:hint="베트남돈(VND) 입력"
+                                android:inputType="number"
+                                android:paddingLeft="10dp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/koreamoneytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:ems="10"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:hint="한국돈(KRW)"
+                                android:inputType="number|textPersonName"
+                                android:paddingLeft="10dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView49"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="VND"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView45"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="KRW"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="2dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:id="@+id/libtn_grab"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView51"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="터치만으로 내위치에서 여행지까지 그랩 가격보기! "
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:background="@drawable/tour3"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+
+                                android:background="@color/colorPrimaryDark"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+
+                                    android:id="@+id/libtn8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:autoLink="web|phone|email"
+                                    android:orientation="vertical"
+                                    android:paddingRight="15dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+                                                android:layout_width="50dp"
+                                                android:layout_height="30dp"
+                                                android:layout_weight="1"
+
+                                                android:background="@drawable/taxi"
+
+                                                android:textSize="0sp" />
+
+                                            <TextView
+                                                android:id="@+id/name1"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_toRightOf="@+id/icon"
+                                                android:layout_weight="1"
+                                                android:paddingTop="5dp"
+
+
+                                                android:text="바나힐그랩"
+                                                android:textColor="@android:color/white"
+                                                android:textSize="14sp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+
+                                    android:id="@+id/libtn9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:autoLink="web|phone|email"
+                                    android:orientation="vertical"
+                                    android:paddingRight="15dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+                                                android:layout_width="50dp"
+                                                android:layout_height="30dp"
+                                                android:layout_weight="1"
+
+                                                android:background="@drawable/taxi"
+
+                                                android:textSize="0sp" />
+
+                                            <TextView
+                                                android:id="@+id/name1"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_toRightOf="@+id/icon"
+                                                android:layout_weight="1"
+                                                android:paddingTop="5dp"
+
+
+                                                android:text="호이안그랩"
+                                                android:textColor="@android:color/white"
+                                                android:textSize="14sp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+
+                                    android:id="@+id/libtn10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:autoLink="web|phone|email"
+                                    android:orientation="vertical"
+                                    android:paddingRight="15dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+                                                android:layout_width="50dp"
+                                                android:layout_height="30dp"
+                                                android:layout_weight="1"
+
+                                                android:background="@drawable/taxi"
+
+                                                android:textSize="0sp" />
+
+                                            <TextView
+                                                android:id="@+id/name1"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_toRightOf="@+id/icon"
+                                                android:layout_weight="1"
+                                                android:paddingTop="5dp"
+
+
+                                                android:text="다낭공항그랩"
+                                                android:textColor="@android:color/white"
+                                                android:textSize="14sp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/libtn2"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="300dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/tour3"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/airplane"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="공항"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="공항에 잘 도착하셨나요!?\n꿀팁으로 여행을 더 즐겨보아요!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn7"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="15dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/tour2222"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/food"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="관광지"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="구석 구석 숨겨진 관광지!\n추천 해드릴게요!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn_night"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/tour_oqpub"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/tour_night_icon"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="플레이"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="밤에도 신나게! 놀자!\n다낭만의 밤 여행지! 클럽 펍 등"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn_resort"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/tour_resort"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/resort_icon"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="리조트"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="사진 찍기 좋은 리조트는 어디!?\n남는 것은 사진 뿐!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/tourfood"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/food"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="맛집"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="직접 찾아 먹어본 맛집\n추천 해드릴게요!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn_food_korea"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/koreafood_menu"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/food"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="한식\n맛집"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="다낭에서 그리운 한식 맛집\n추천 해드릴게요!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:id="@+id/libtn_present"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/vetnam_present_fire"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/hairsotre"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="기념품"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="기념품은 무엇을 사야될까?\n다낭에서 사기좋은 추천 기념품!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libnt_hair"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/hair_main"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/hairsotre"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="이발소"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="이발소에서 풀마사지까지!?\n한국인이 많이 찾는 이발소\n추천 해드릴게요!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn_masage"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/massage_main"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/food"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="마사지"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="다낭 마사지 어디가 좋을까? \n우수리뷰 마사지샵 추천 해드릴게요!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libnt_tatto"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/tattoo_main2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/food"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="타투"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="다낭에서도 타투를? 리뷰 좋은\n타투샵 추천 해드릴게요!"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libnt_scooter"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/scooter_main"
+                    android:orientation="vertical"
+                    android:radius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#7e000000"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/food"
+
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp"
+
+
+                                android:text="스쿠터"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:text="스쿠터 타고 다낭을 돌아보는건 어떨까요 :)\n대여샵 추천드려요"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/adtext33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:text="절약\n꿀팁!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView99"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="준비중 입니다.\n조금만 기다려 주세요!"
+                        android:textColor="@color/browser_actions_bg_grey"
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
+
+

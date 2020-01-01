@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tour_cao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="후에성\n(후에 유적지
+세계 문화유산)
+"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:paddingBottom="95dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/tour_hue" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="후에성?"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="후에 황성(베트남어: Hoàng thành Huế)은 1802년부터 1945년에 이르기까지 약 143년간 응우옌 왕조의 궁궐 역할을 했던 곳이다. 베트남 최고의 관광지로 각광을 받고 있는 후에는 유적 전체가 유네스코가 세계문화유산으로 지정되었으며, 베트남 전쟁 당시 파괴된 유적들의 복원, 보존 작업이 활발히 진행되고 있다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/tour_hue_2" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n특징"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="선조의 영토를 회복한 1802년에 응우옌푹아인(Nguyễn Phúc Ánh/ 阮福暎 완복영)은 스스로 자롱제로 등극했다. 그의 등극은 1804년 청나라에 의해 인지되었다. 새로운 황궁과 성을 어디로 지어야 할 지 결정하는데는 지관과 오랜 상의를 거쳐야 했다. 지관이 후에에 적지를 정한 후에 1804년에 황궁 건축이 시작되었다. 자금성을 본 떠 똑같이 만들었다는 베트남 응우옌 왕조의 황궁은 외성에는 해자가 둘러있고 황궁 앞에는 좌우로 대포진지가 있고 멀리 잔디광장에 베트남의 국기가 펄럭인다. 규모는 대단하지만 성안으로 들어가면 몇 개의 건물을 제외하고는 전쟁으로 인해 거의 다 허물어진 빈 성터로 현재 복원 작업 중이며, 남은 잔해의 모습으로 보아 엄청난 규모임을 짐작할 수 있다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n관광포인트"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/tour_hue_3" />
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/tour_hue_4" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="가장 뛰어난 관광지이자 볼거리는 후에 황궁(베트남어: Kinh thành Huế, Imperial City, Huế)으로서 인근에 황제가 머물던 궁과 묘가 있다. 후에 전체를 통틀어 흐엉강의 북쪽 지역인 구 시가지에 대부분의 유적이 자리한다. 응우옌 왕조의 황제는 성 안에서 머물렀는데 이는 성벽으로 둘러싸인 거대한 공간이었다. 이 성 안쪽의 왕궁은 금지된 도시였고, 오직 황제들과 첩들 그리고 측근들만이 접근할 수 있었다. 함부로 들어갔다가는 사형을 당하였다. 후에의 역사 관광지로서 유지하기 위하여 재건축의 노력이 진행되고 있으나 오늘날 금지된 영역은 거의 남아 있지 않다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n관광비용"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="단일 입장료 : 15만동(7500원)\n전체 입장료 : 36만동(1만8천원)"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n전체총평"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="후에성"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/imageView6"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="-250dp"-->
+                    <!--android:layout_weight="0"-->
+                    <!--app:srcCompat="@drawable/view" />-->
+
+                    <LinearLayout
+                        android:id="@+id/libtn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:autoLink="web|email|phone"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/googlefood"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#3F51B5"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/icon"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="30dp"
+                                    android:layout_weight="1"
+
+                                    android:src="@drawable/food"
+                                    android:textSize="0sp" />
+
+                                <TextView
+                                    android:id="@+id/name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@+id/icon"
+                                    android:layout_weight="1"
+                                    android:text="관광"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:text="후에성 위치 보기 !"
+                                android:textColor="@android:color/white"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/name"
+                                android:layout_alignParentRight="true"
+                                android:layout_weight="1"
+                                android:text="구글\n링크!"
+                                android:textColor="@android:color/white" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

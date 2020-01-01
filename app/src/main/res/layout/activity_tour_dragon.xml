@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tour_dragon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="롱 교\nCầu Rồng"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:paddingBottom="95dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/tour_brige" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+
+                        android:layout_weight="0"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="롱 교(베트남어: Cầu Rồng / 橋龍)"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="롱교란?"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="베트남 다낭만의 독특한 디자인의 용모양 형상의 다리 입니다. 롱(Rồng)은 베트남어로 용(龍)을 가르키는 말로, 흐르고 있는 한강 위에 설치가 되어 있습니다. 2009년 7월 19일에 제작하여, 2013년 3월 29일에 완공되어 전체 길이 666m의 다리입니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/tour_brige_2" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n특징"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="롱 교의 길이는 666m, 폭 37.5m로, 6차선의 도로가 있습니다. 롱교의 건축비용은 1조 5000억 동 (US $8800만) 소요 되었으며, 교량 설계는 미국에 본사를 둔 루이스 버거 그룹이 했습니다.  롱교는 레딘즈엉 거리 / 박당 교차로의 한강을 횡단하고 다낭시의 다른 주요 도로와 다낭 국제 공항을 최단으로 연결하는 수단을 제공하고 있습니다. 또한 도시의 동쪽 끝에있는 미케 해변과 노느억 해변로 가는 직행 노선이기도 합니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n관광포인트"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/tour_brige_fire"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="롱교는 관광 포인트는 매주 주말 9시 정각에 불쇼가 시작 됩니다. 용의 입에서 실제 불을 뿜는 것을 볼 수 있으며 물을 뿜을 경우도 있다고 합니다. 낮보단 아갼에 볼 시 여러 LED의 색상의 변화에 따른 롱교를 볼 수가 있습니다."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n관광비용"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="0원"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="\n전체총평"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:lineSpacingMultiplier="1.2"
+                        android:shadowDx="5.0"
+                        android:shadowDy="5.0"
+                        android:shadowRadius="5.0"
+                        android:text="롱교의 불쇼는 주말에만 볼 수 있기에 꼭 구경 하고 코스를 짜실 때 주말에 포함하여 여행일정을 잡는 것이 좋을 것 같습니다. 평일에 오더라도 다리위를 걸어서 지다 다닐 수 있기 때문에 야경을 즐기며 걷는 것도 좋을 것 같습니다. 또한 용교 바로근처 사랑의 부두는 연인 또는 가족끼리 꼭 가보았으면 좋겠습니다. "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp" />
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/imageView6"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="-250dp"-->
+                    <!--android:layout_weight="0"-->
+                    <!--app:srcCompat="@drawable/view" />-->
+
+                    <LinearLayout
+                        android:id="@+id/libtn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:autoLink="web|email|phone"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/googlefood"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#3F51B5"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/icon"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="30dp"
+                                    android:layout_weight="1"
+
+                                    android:src="@drawable/food"
+                                    android:textSize="0sp" />
+
+                                <TextView
+                                    android:id="@+id/name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@+id/icon"
+                                    android:layout_weight="1"
+
+
+                                    android:text="롱교"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:text="롱교 위치 보기 !"
+                                android:textColor="@android:color/white"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/name"
+                                android:layout_alignParentRight="true"
+                                android:layout_weight="1"
+                                android:text="구글\n링크!"
+                                android:textColor="@android:color/white" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

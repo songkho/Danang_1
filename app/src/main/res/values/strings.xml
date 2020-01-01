@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">다낭여행</string>
+
+    <!--<string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>  // 전면광고 코드-->
+
+    <!--<string name="banner_ad_unit_id">ca-app-pub-2821664824480291/2184494920</string>-->
+
+    <string name="ad_unit_id">ca-app-pub-2821664824480291/5604865181</string>
+    <!--//전면광고 코드 (실제코드)-->
+
+
+
+    <string name="default_notification_channel_id">Channel ID</string>
+
+    <string name="default_notification_channel_name" translatable="true">Test</string>
+
+
+</resources>

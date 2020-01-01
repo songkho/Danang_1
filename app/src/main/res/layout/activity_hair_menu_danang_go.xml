@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".playnight_golenpine">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="90dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="85dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@drawable/hair_go" />
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="다낭 고향이발관"
+                        android:textStyle="bold" />
+ㅇ
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="삼원 식당(한식당) 맞은편에 위치한 고향이발관은 다낭에서 제일 오래된 이발관이라고 해요, 영업시간은 평일, 주말 09:00~20:00까지이며, 제공되는 서비스로는 이발, 염색, 세트A(세족, 면도, 오이팩, 귀청소, 손발톱 정리, 마사지, 샴푸)귀 청소, 귀 청소+마사지30분, 발마사지1시간이 제공되는데 원하는 부분만큼 선택하시면 된답니다. 가격은 약 13,000원 가량이며, 특히 귀 청소에 대한 좋은 평이 많은 곳이에요. \n\n하지만 귀 청소 같은 경우 청결 면에서 걱정을 하시는 분들도 간혹 있으신데, 이곳은 가장 오래된 만큼 전문적 기술을 가진 숙련된 전문가가 실시하며, 걱정하실 필요는 없다고 해요! 만약 귀 청소 시 통증이 있으신 분들은 꼭 말씀해주시고, 손톱 깎을 때 바짝 깎을 수도 있으니 민감한 분들은 꼭 말씀해주셔야 해요. 사장님도 한국분이시라 궁금 사항이 생기면 편하게 질문하셔도 된답니다. 저렴한 가격에 이 모든 서비스를 받을 수 있었던 고향이발관! 가족 및 친구와 함께 꼭 방문하여 즐거운 휴식시간을 즐기길 추천 드려요! "
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="영업시간 "
+                        android:textStyle="bold"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="월요일 ~ 일요일 오전 9:00~오후 8:00"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="연락처"
+                        android:textStyle="bold"
+                        app:lineHeight="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="+84 358 670 672"
+                        app:lineHeight="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/hair_go"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name"
+                        android:layout_alignLeft="@+id/name"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="구글 지도로 위치를 알아보자 !"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:id="@+id/googlefood"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+
+                                android:src="@drawable/hairsotre"
+                                android:textSize="0sp" />
+
+                            <TextView
+                                android:id="@+id/name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/icon"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="이발소"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_alignLeft="@+id/name"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:text="고향 이발관"
+                            android:textColor="@android:color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/name"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="구글\n링크!"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn6"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="300dp"
+                    android:layout_marginTop="10dp"
+                    android:autoLink="web|email|phone"
+                    android:background="@drawable/hair_go"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name"
+                        android:layout_alignLeft="@+id/name"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="다른 사람들은 이 장소를 어떻게 즐기고 있을까 ? \n인스타 태그로 살펴보자 !"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/common_google_signin_btn_text_light_focused"
+                        android:gravity="center"
+                        android:text="## 고향 이발관 ! ! \nInstagram go! go!"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

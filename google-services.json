@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "775044347591",
+    "firebase_url": "https://danang-1.firebaseio.com",
+    "project_id": "danang-1",
+    "storage_bucket": "danang-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775044347591:android:db1c97aab1b108b2",
+        "android_client_info": {
+          "package_name": "com.idh.songk.danang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775044347591-jftpj62e709cta81ue08vjb27dqbn5jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnWQBgbaRZs507HsLTt8_lckzCbzgFk7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775044347591-jftpj62e709cta81ue08vjb27dqbn5jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

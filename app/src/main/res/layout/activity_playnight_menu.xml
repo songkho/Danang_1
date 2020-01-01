@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".playnight_menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/libtn1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/tour_oqpub"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="한국 여행자가 가장많이 추천하는 클럽!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="OQ Lounge Pub !"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 클럽 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/playnight_apoclub"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="바다와 함께 음식은 비싸지만 분위기 깡패 클럽!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="Apocalypse Beach Club !"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 클럽 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lbtn2gold"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/nightplay_goldenpine3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="길거리에서 운치있게 즐길 수 있는 펍!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="Golden Pine Pub !"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 클럽 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/nightplay_goldenpine2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="노래소리 쾅!쾅! 다낭에서 제일 크고 오래된 클럽!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="New Oriental Club !\n(New PHUONG DONG)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 클럽 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/playnight_novotel"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="하늘과 가장 가까운 클럽! 노보텔 36층! 야경이 끝내주는 클럽!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="Nightlife in DaNang !\nSKY36 Bar DaNang !\n(노보텔 36층)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 클럽 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/pocketball"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="다낭에서도 당구한판!? "
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="Sapphire Billiard Club !\n(당구장)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 클럽 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/playnight_hairclub"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="싸고! 재밋다! 다낭 EDM 클럽!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="Hair Of The Dog Bar Danang !"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 클럽 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/playnight_karaoke"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="고급스러운 객실! 호화로운 서비스에 열정을 가진 장소! "
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="ROYAL Karaoke Club !"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 클럽 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

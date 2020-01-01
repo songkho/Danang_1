@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".playnight_menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="95dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/libtn1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/resort_bin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="여행자들이 가장 많이 추천 하는 리조트!"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="빈펄 리조트\n(5성급 호텔)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 리조트 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/resort_purama"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="푸라마 리조트\n(5성급 호텔)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 리조트 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/resort_melia"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="멜리아 리조트\n(4성급 호텔)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 리조트 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/resort_grand"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="쉐라톤 그랜드 다낭 리조트\n(5성급 호텔)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 리조트 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/resort_pullman"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="풀먼비치 리조트 다낭\n(5성급 호텔)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 리조트 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/resort_fusion"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="퓨전 스위트 다낭 비치\n(5성급 호텔)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 리조트 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/resort_hoian"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="더 펄 호이안 페스타\n(4성급 호텔)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 리조트 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/tour_resort3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="골든베이 다낭 호텔\n(5성급 호텔)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 리조트 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

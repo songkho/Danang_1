@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tour_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="다낭여행 관광지"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="95dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/libtn7"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_hoian"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="호이안"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp"
+                                tools:ignore="DuplicateIds" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/libtn8"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour6"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="사랑의부두"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/libtn1"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|phone|email"
+                        android:background="@drawable/tour_brige"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="롱 교"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/libtn2"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour2"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="바나힐"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn19"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_misun"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="미선유적"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn20"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_hue"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="후에성\n(세계문화유산)"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn17"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_asia_park"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="아시아파크"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/libtn18"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_dongding"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="동딩박물관"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/libtn5"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour3"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="미케해변"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/libtn6"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_catle"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="다낭 대성당"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/libtn3"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_sa"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="영흥사"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/libtn4"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_mu"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="0dp"
+
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="참 박물관"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/libtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/libtn9"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_mat"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="오행산"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/libtn10"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_cao5"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="까오다이교 사원"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn15"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_gold"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="바나힐\n골든 브릿지"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn16"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_han"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="다낭\n한시장"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn13"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_5tank"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="5군구\n전쟁기념관"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn14"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_museum_of_danang"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="다낭 박물관"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn11"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_hel"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/usimbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="헬리오 시티\n(야시장)"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:id="@+id/libtn12"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:autoLink="web|email|phone"
+                        android:background="@drawable/tour_tric"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/moneybtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#7e000000"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            tools:ignore="DuplicateIds">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name"
+                                android:layout_alignLeft="@+id/name"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="트릭아트\n파라다이스"
+                                android:textColor="@android:color/white"
+                                android:textSize="25dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="호이안 "
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

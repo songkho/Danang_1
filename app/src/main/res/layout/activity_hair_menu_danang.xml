@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodeat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="95dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/libtn2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/hair_king"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="여행자들이 가장 많이 추천 하는 이발소 모음 !"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="황제이발소"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 이발소 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/hair_go"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="여행자들이 가장 많이 추천 하는 이발소 모음 !"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="고향이발관"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 이발소 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/hair_seoul"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="여행자들이 가장 많이 추천 하는 이발소 모음 !"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="서울이발관"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 이발소 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/hair_gangnam"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="여행자들이 가장 많이 추천 하는 이발소 모음 !"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="강남이발소"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 이발소 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/libtn6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/hair_jeil"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="여행자들이 가장 많이 추천 하는 이발소 모음 !"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="다낭제일이발관"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_google_signin_btn_text_light_focused"
+                    android:gravity="center"
+                    android:text="* 모든 메뉴 이미지는 실제 이발소 사진과 다릅니다. 내부 링크로 확인해 주세요."
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-2821664824480291/2184494920"></com.google.android.gms.ads.AdView>
+</RelativeLayout>
