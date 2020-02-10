@@ -36,17 +36,16 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     //RewardedVideoAd mRewardedVideoAd;
 
+    // 2.10데스크탑
+
     private AdView mAdView;
 
     private InterstitialAd mInterstitialAd;
 
 
-
-
-
     TextView tv1, adtext1;
     LinearLayout li1, li2, li3, li4, li5, li6, li7, li8, li9, li10, shareb, write,
-            weatherbtn1, weatherbtn2, weatherbtn3, weatherbtn4, playnight_btn, libtn_resort, libtn_hair, libtn_sctoor, libtn_massage, libtn_tatoo , libtn_korea;
+            weatherbtn1, weatherbtn2, weatherbtn3, weatherbtn4, playnight_btn, libtn_resort, libtn_hair, libtn_sctoor, libtn_massage, libtn_tatoo, libtn_korea;
 
     EditText vetnamnoney, koreamoneytext;
 
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     int changeValue;
 
-    String   v1 ;
+    String v1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,8 +83,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
 
-
-
             @SuppressLint("SetTextI18n")
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
@@ -103,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     DecimalFormat sosu2 = new DecimalFormat("###,###.## 원");
                     koreamoneytext.setText(sosu2.format(changeValue));
 
-                    if (vetnamnoney == null){
+                    if (vetnamnoney == null) {
                         koreamoneytext.setText("0원");
                     }
 
@@ -246,7 +243,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         libtn_massage = (LinearLayout) findViewById(R.id.libtn_masage);
         libtn_sctoor = (LinearLayout) findViewById(R.id.libnt_scooter);
         libtn_korea = (LinearLayout) findViewById(R.id.libtn_food_korea); // 한국음식
-
 
 
         //------------------------------------------- 날씨 링크 --------------------------------------------------------------//
